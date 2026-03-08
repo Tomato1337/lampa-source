@@ -301,6 +301,7 @@ function browser_sync(done) {
         server: {
             baseDir: bulFolder+'web/'
         },
+        port: 8091,
         open: false,
         notify: false,
         ghostMode: false,
